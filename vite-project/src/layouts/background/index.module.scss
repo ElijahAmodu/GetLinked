@@ -1,0 +1,7 @@
+.custom__bg {
+    background-image: 
+      radial-gradient(circle at 30% 20%, #150E28 10%, transparent 30%),
+      radial-gradient(circle at 80% 40%, #150E28 10%, transparent 20%),
+      linear-gradient(to bottom, #150E28, #150E28);
+    background-blend-mode: screen;
+  }

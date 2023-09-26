@@ -1,0 +1,14 @@
+.btn {
+    @apply bg-primary rounded-lg px-4 py-[15px] font-acorn;
+    @apply text-white text-[18px] font-bold; 
+    @apply max-2xl:py-[10px] max-2xl:text-[16px] hover:opacity-90; 
+
+    &[data-no-bg] {
+        @apply bg-transparent;
+      }
+}
+
+.btn__inactive {
+    @apply bg-primary/25 text-white;
+}
+
