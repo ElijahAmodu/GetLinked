@@ -1,6 +1,5 @@
 import ToolBar from '../../component/ToolBar'
 // import Footer from 'components/footer'
-import React from 'react'
 import { Outlet, ScrollRestoration } from 'react-router-dom'
 
 
